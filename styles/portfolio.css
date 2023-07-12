@@ -239,3 +239,15 @@ main section{
 .download-cv{
     text-align: center;     /*can be used in a div, direct div chara button boshale kaaj kore na*/
 }
+
+/*Footer section styles */
+footer{
+    background: #FFF8F3;
+    margin-top: 113px;
+    padding: 130px 200px;
+}
+
+.footer-column-contaner{
+    display:flex;
+    
+}
