@@ -247,7 +247,35 @@ footer{
     padding: 130px 200px;
 }
 
-.footer-column-contaner{
+.footer-column-container{
     display:flex;
+    gap:100px;
     
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.contact input[type="text"], .contact input[type="email"],  /*input type can be specified"*/
+textarea{    /*contact er bhitore sob input, textarea tag er display inline theke block kora*/
+    display:block;
+    margin-bottom: 24px;
+    border: none;
+    padding: 18px 350px 18px 30px;
+    color:#757575;
+    background: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    border-radius: 5px;
+}
+
+.social-links a{
+    margin-right: 24px;
+}
+
+
+#submit-btn{
+    padding: 18px 39px 19px 39px;
 }
