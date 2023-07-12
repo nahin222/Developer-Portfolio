@@ -1,0 +1,49 @@
+/*common shared style*/
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-primary {
+  /*this color is used multiple time in the same site, so considering it the site's primary text color*/
+  color: #fd6e0a;
+}
+
+.btn-primary {
+  /*this color is used multiple time in the same site, so considering it the site's primary button color*/
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px 19px 36px;
+}
+
+/*nav related styles*/
+nav {
+  display: flex; /*header ar li same line e chole ashe*/
+  justify-content: space-between;     /*h3 ar ul element gulake dure soray dilo*/ 
+  align-items: center;    /* vertically alligned chilo na er aage (h3 ar ul)allign holo. Not items inside ul. Oita alada kore kora lagbe*/
+}
+
+nav ul {
+  display: flex; /*makes all li's to come inLine*/
+  align-items: center;   /*vertically aligned chilo na ul er item gula*/
+
+}
+
+nav li {
+  margin-right: 50px;
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #474747;
+}
+
+.site-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
