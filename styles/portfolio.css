@@ -19,11 +19,28 @@ body {
   padding: 18px 35px 19px 36px;
 }
 
+/*header related styles*/
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display:flex;                       /*image next line theke pashe anlam*/
+    align-items: center;                /*vertical align*/
+}
+
+.ProfilePicture{
+    width: 584px;
+    
+}
+
 /*nav related styles*/
 nav {
   display: flex; /*header ar li same line e chole ashe*/
   justify-content: space-between;     /*h3 ar ul element gulake dure soray dilo*/ 
   align-items: center;    /* vertically alligned chilo na er aage (h3 ar ul)allign holo. Not items inside ul. Oita alada kore kora lagbe*/
+  margin: 0 200px;
 }
 
 nav ul {
