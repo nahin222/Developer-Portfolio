@@ -22,17 +22,48 @@ body {
 /*header related styles*/
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;    /* y axis position first, x axis position then*/
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display:flex;                       /*image next line theke pashe anlam*/
     align-items: center;                /*vertical align*/
+    justify-content: space-between;     /*banner content ar image taar moddhe space between dilam*/
 }
 
 .ProfilePicture{
     width: 584px;
     
+}
+
+.banner-greeting
+{
+    font-size: 45px;
+    font-weight: 600;
+    color:#474747;
+    margin-bottom:5px;
+}
+
+.banner-heading{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.banner-desc{
+    font-size: 18px;
+    font-weight: 400;
+    color:#757575;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.banner-content{
+    max-width: 585px;
 }
 
 /*nav related styles*/
